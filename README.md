@@ -1342,7 +1342,13 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ### OUTPUT
- 
+```
+Iteration number: 1
+Iteration number: 2
+Iteration number: 4
+Iteration number: 5
+The for loop is completed
+``` 
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1356,6 +1362,10 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ### OUTPUT
+```
+ Enter your name: John
+ Hello John, welcome to my program.
+```
 
 
  cat exread1.sh
@@ -1368,9 +1378,10 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ### OUTPUT
-
-
-
+```
+Enter your name: sanju
+ Hello sanju, welcome to my program.
+```
 $ ./exread1.sh 
  
 cat funcex.sh
@@ -1407,6 +1418,11 @@ $ chmod 777 argshift.sh
 
 ### OUTPUT
 $ ./argshift.sh 1 2 3
+```
+1
+2
+3
+```
  
  cat argshift1.sh
 ```bash
@@ -1424,6 +1440,11 @@ done
 $ chmod 777 argshift.sh
 ### OUTPUT
 $ ./argshift.sh 1 2 3
+```
+1
+ 2
+ 3
+```
  
 cat argshift.sh
 ```bash
